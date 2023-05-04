@@ -2,8 +2,10 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: black;
+    background-color: rgb(71, 66, 66);
     padding: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
   }
   
   .nav-title {
@@ -11,6 +13,8 @@
     font-weight: bold;
     margin: 0;
     color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
   }
   
   .nav-links {
@@ -32,15 +36,17 @@
     text-decoration: none;
     color: white;
     font-size: 16px;
-    font-weight: bold;
+    padding: 10px;
+   
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
   }
   
-  .nav-links a:hover {
-    color:gray;
-  }
+
   
   .active {
     color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
   }
   
   .btn {
@@ -48,10 +54,10 @@
     color: black;
     border: none;
     padding: 10px 20px;
-    font-size: 16px;
+    font-size: 12px;
     cursor: pointer;
+    box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.75);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
   }
   
-  .btn:hover {
-    background-color: yellow;
-  }
