@@ -36,7 +36,7 @@
   }
   
   .nav-links a:hover {
-    color: #f00;
+    color:gray;
   }
   
   .active {
