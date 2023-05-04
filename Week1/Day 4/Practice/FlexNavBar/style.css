@@ -1,63 +1,40 @@
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
 .nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: rgb(71, 66, 66);
-    padding: 10px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: #333333;
+  color: #ffffff;
+  height: 80px;
+  width: 1000px; /* for styling purposes */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
 
-  }
-  
-  .nav-title {
-    font-size: 24px;
-    font-weight: bold;
-    margin: 0;
-    color: white;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+.nav-links {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+  justify-content: space-around;
+}
 
-  }
-  
-  .nav-links {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-  }
-  
-  .nav-links li {
-    margin-right: 20px;
-  }
-  
-  .nav-links li:last-child {
-    margin-right: 0;
-  }
-  
-  .nav-links a {
-    text-decoration: none;
-    color: white;
-    font-size: 16px;
-    padding: 10px;
-   
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+.nav a {
+  color: #ffffff;
+  text-decoration: none;
+}
 
-  }
-  
+.nav-title {
+  margin-left: 20px;
+}
 
-  
-  .active {
-    color: white;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-  }
-  
-  .btn {
-    background-color: aqua;
-    color: black;
-    border: none;
-    padding: 10px 20px;
-    font-size: 12px;
-    cursor: pointer;
-    box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.75);
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-
-  }
-  
+.btn {
+  height: 35px;
+  width: 100px;
+  background-color: #17a2b8;
+  color: #ffffff;
+  border: none;
+  font-size: 16px;
+  box-shadow: 5px 5px #000000;
+}
