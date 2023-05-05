@@ -1,0 +1,29 @@
+
+  .container{
+    width: 950px;
+background-color: white;
+margin: 0px auto;
+    border: 2px solid grey;
+
+  }
+  hr{
+    margin-top: 0px;
+    height: 100px;
+    background-color: rgb(87, 177, 177);
+  }
+  #user-circle{
+    flex: content;
+    margin-top: 0px;
+    height: 80px;
+    width: 80px;
+    /*border-radius: 2px solid white;*/
+   /* border-radius: 2px solid gray;*/
+  }
+  #gear{
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+  }
+  .footer{
+    display: inline-block;
+  }
