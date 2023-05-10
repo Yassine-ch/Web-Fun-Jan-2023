@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+    <title>Dojo Weather</title>
+</head>
+<body>
+    <div class="container">
+        <div class="nav">
+            <h1 class="nav-title">  DojoWeather</h1>
+    <ul class="nav-links">
+        <li><a id="Burank" href= "#" onclick='cityAlert(this)' >Burank</a></li>
+        <li> <a href="#" onclick='cityAlert(this)' >Chicago</a></li>
+        <li><a href="#" onclick='cityAlert(this)' >Dallas</a></li>
+    </ul>
+        </div>
+        <div class="main">
+            <div class="top">
+                <h1> San Jose</h1>
+                <div class="degree">
+                    <h4>show temperature in</h4>
+                    <select name="temp" onchange="change(this)" id="temp">
+                    <option >C°</option>
+                    <option>F°</option>
+                    </select> 
+                </div>
+            </div>
+            <hr>
+            <div class="med">
+
+                <div class="weatherContainer">
+                    <h2>Tomorrow</h2>
+                    <img class="im" src="assets/some_rain.png" alt="sun">
+                    <h1>some rain</h1>
+                    <div class="number">
+                        <h2 class="numRed">24°</h2>
+                        <h2 class="numBlue">18°</h2>
+                    </div>
+
+                </div>
+                <div class="weatherContainer">
+                    <h2>Friday</h2>
+                    <img class="im" src="assets/some_sun.png" alt="sun">
+                    <h1>some sun</h1>
+                    <div class="number">
+                        <h2 class="numRed">27°</h2>
+                        <h2 class="numBlue">19°</h2>
+                    </div>
+
+                </div>
+                <div class="weatherContainer">
+                    <h2>Sat</h2>
+                    <img class="im" src="assets/some_sun.png" alt="sun">
+                    <h1>some sun</h1>
+                    <div class="number">
+                        <h2 class="numRed">27°</h2>
+                        <h2 class="numBlue">19°</h2>
+                    </div>
+
+                </div>
+                <div class="weatherContainer">
+                    <h2>Today</h2>
+                    <img class="im" src="assets/some_clouds.png" alt="sun">
+                    <h1>some clouds</h1>
+                    <div class="number">
+                        <h2 class="numRed">21°</h2>
+                        <h2 class="numBlue">16°</h2>
+                    </div>
+
+                </div>
+            </div>
+            <div class="cookieContainer" id="cookie">
+               <div>
+                <img class="cookiImg"  src="assets/cookie.png" alt="cookie">
+               </div>
+             <div class=" cookiePa">
+               <h2>Stop Cookie time</h2>
+                   <p>
+                    We use cookies (sadly not the ones ) to personalize <br>
+                    content and ads , to provide social media 
+                    features and analyse our trafic.
+                    <a href="#">Read More ....</a>
+                   </p>
+                    
+             </div>
+             <div>
+                <button class="btn" onclick="deleteCookie()">Accept</button>
+             </div>
+            </div>
+
+        </div>
+
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
