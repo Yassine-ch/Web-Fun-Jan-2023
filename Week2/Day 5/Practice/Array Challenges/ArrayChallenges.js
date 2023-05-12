@@ -55,6 +55,22 @@ function reverse(arr) {
    
 var result = reverse(["a", "b", "c", "d", "e"]);
 console.log(result); 
+//Question 5: Fibonacci Array
+
+function fibonacciArray(n) {
+
+    var fibArr = [0, 1];
+    for (let i = 0; i < n; i ++) {
+      fibArr.push(fibArr[fibArr.length -1] + fibArr[fibArr.length -2]) 
+      if (fibArr[fibArr.length -1] === 55 ) {
+        fibArr.pop(fibArr.length-1)
+      }
+    }
+    return fibArr;
+} 
+   
+var result = fibonacciArray(10);
+console.log(result); 
 
 
 
