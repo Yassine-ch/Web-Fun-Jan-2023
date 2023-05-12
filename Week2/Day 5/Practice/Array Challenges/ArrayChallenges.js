@@ -46,6 +46,17 @@ function betterThanAverage(arr) {
 }
 var result = betterThanAverage([6, 8, 3, 10, -2, 5, 9]);
 console.log(result); 
+//Question 4: Array Reverse
+
+function reverse(arr) {
+    arr.reverse();
+    return arr;
+}
+   
+var result = reverse(["a", "b", "c", "d", "e"]);
+console.log(result); 
+
+
 
 
 
