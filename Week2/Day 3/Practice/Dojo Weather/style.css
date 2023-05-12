@@ -59,18 +59,18 @@
     justify-content: center;
   }
 .weatherContainer{
-    margin: 10px;
-    display: flex;
-    display: block;
-    justify-content: center;
-    width:180px;
+  flex: 1;
+  text-align: center;
+  background-color: #ddd;
+  padding: 40px 0;
+  margin-right: 20px;
     
     background-color:#eeeeee;
 }
 .im{
    border-radius: 50px;
-    width: 90px;
-    height: 90px;
+    width: 100px;
+    height: 100px;
 }
 .number{
     display: flex;
